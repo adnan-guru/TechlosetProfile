@@ -1,10 +1,10 @@
 export const style = {
-    main: {
-        flexGrow: 1,
-    },
     title: {
         flexGrow: 1,
-        paddingLeft:'20px',
+        paddingLeft:'20px',  
+    },
+    logo:{
+maxWidth:'15%',
     },
     icon:{
         paddingRight:'20px',

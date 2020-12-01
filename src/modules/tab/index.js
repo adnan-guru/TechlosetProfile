@@ -6,6 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
 import Myprofile from '../../modules/myprofile';
+import Leave from '../../modules/leave';
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
   return (
@@ -63,7 +64,7 @@ export default function SimpleTabs() {
             tab1
           </TabPanel>
           <TabPanel value={value} index={2}>
-            tab2
+            <Leave />
           </TabPanel>
           <TabPanel value={value} index={3}>
          tab3

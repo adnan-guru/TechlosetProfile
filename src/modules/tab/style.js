@@ -14,7 +14,7 @@ export const style = {
 
   },
   main: {
-    paddingTop:'50px',
+    paddingTop:'100px',
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',

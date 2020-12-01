@@ -26,22 +26,15 @@ export default function Myprofile() {
                             <Typography variant="h6">Art Director</Typography>
                             <Typography style={style.heading} variant="subtitle1">Experiance</Typography>
                             <Typography variant="h6">10 Years</Typography>
-                            <Typography style={style.heading} variant="subtitle1">Function</Typography>
-                            <Typography variant="h6">Art {'&'} Multimedia</Typography>
-
                         </Grid>
                         <Grid style={style.headingtop} item md={7} xs={7}>
                             <Typography style={style.heading} variant="subtitle1">Employement Type</Typography>
                             <Typography variant="h6">Full Time</Typography>
                             <Typography style={style.heading} variant="subtitle1">Skill {'&'} Experiance</Typography>
                             <Typography variant="h6">Illustarion {'&'} UI/UX Writeframe</Typography>
-                            <Typography style={style.heading} variant="subtitle1">Minashah</Typography>
-                            <Typography variant="h6">Minashah Al Jassad, Albasar</Typography>
-
                         </Grid>
                     </Grid>
                 </Grid>
-
                 <Grid item md={4} xs={12}>
                     <Calendar
                         onChange={onChange}
