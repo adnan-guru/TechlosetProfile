@@ -7,6 +7,7 @@ import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
 import Myprofile from '../../modules/myprofile';
 import Leave from '../../modules/leave';
+import Paystuff from '../../modules/paystuff';
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
   return (
@@ -46,13 +47,12 @@ export default function SimpleTabs() {
           scrollButtons="on"
         >
           <Tab style={style.heading2} label="Profile" {...a11yProps(0)} />
-          <Tab style={style.heading2} label="Payroll"  {...a11yProps(1)} />
+          <Tab style={style.heading2} label="Paystuff"  {...a11yProps(1)} />
           <Tab style={style.heading2} label="Leaves" {...a11yProps(2)} />
           <Tab style={style.heading2} label="Document" {...a11yProps(3)} />
           <Tab style={style.heading2} label="Agrement" {...a11yProps(4)} />
-          <Tab style={style.heading2} label="Leaves" {...a11yProps(5)} />
-          <Tab style={style.heading2} label="Document" {...a11yProps(6)} />
-          <Tab style={style.heading2} label="Agrement" {...a11yProps(7)} />
+          <Tab style={style.heading2} label="Social" {...a11yProps(5)} />
+          <Tab style={style.heading2} label="Education" {...a11yProps(6)} />
         </Tabs>
       </div>
       <Grid container>
@@ -61,7 +61,7 @@ export default function SimpleTabs() {
             <Myprofile />
           </TabPanel>
           <TabPanel value={value} index={1}>
-            tab1
+            <Paystuff />
           </TabPanel>
           <TabPanel value={value} index={2}>
             <Leave />
@@ -78,12 +78,8 @@ export default function SimpleTabs() {
           <TabPanel value={value} index={6}>
          tab6
           </TabPanel>
-          <TabPanel value={value} index={7}>
-         tab7
-          </TabPanel>
         </Grid>
       </Grid>
-
     </div>
   );
 }

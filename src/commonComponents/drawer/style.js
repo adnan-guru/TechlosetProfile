@@ -1,13 +1,16 @@
-export const style = {
+export const style={
+    icon:{
+        marginLeft:'220px',
+    },
     title: {
         flexGrow: 1,
         paddingLeft:'20px',  
     },
     logo:{
-        maxWidth:'12%',
+maxWidth:'15%',
     },
-    icon:{
-        paddingRight:'20px',
+    icon2:{
+        color:'#fff'
     },
     img:{
         maxWidth:'100%',
@@ -17,12 +20,5 @@ export const style = {
         borderRadius:'50%',
     
     }
-
-
-
-
-
-
-
-
+   
 }
