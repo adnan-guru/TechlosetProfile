@@ -1,24 +1,25 @@
-export const style={
-    icon:{
-        marginLeft:'220px',
+export const style = {
+    icon: {
+        marginLeft: '220px',
     },
     title: {
         flexGrow: 1,
-        paddingLeft:'20px',  
+        paddingLeft: '20px',
     },
-    logo:{
-maxWidth:'15%',
+    logo: {
+        maxWidth: '15%',
     },
-    icon2:{
-        color:'#fff'
+    icon2: {
+        color: '#fff'
     },
-    img:{
-        maxWidth:'100%',
-        height:'auto',
-        width:'40px',
-        height:'40px',
-        borderRadius:'50%',
-    
-    }
-   
+    img: {
+        maxWidth: '100%',
+        height: 'auto',
+        width: '40px',
+        height: '40px',
+        borderRadius: '50%',
+
+    },
+
+
 }

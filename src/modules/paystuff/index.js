@@ -22,7 +22,6 @@ const useRowStyles = makeStyles({
     },
   },
 });
-
 function createData(
   name: string,
   calories: number,
@@ -51,8 +50,8 @@ function Row(props) {
   const classes = useRowStyles();
 
   return (
-    <React.Fragment>
-      <TableRow className={classes.root}>
+    <React.Fragment >
+      <TableRow className={classes.root} >
         <TableCell>
           <IconButton aria-label="expand row" size="small" onClick={() => setOpen(!open)}>
             {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
@@ -104,7 +103,6 @@ function Row(props) {
     </React.Fragment>
   );
 }
-
 const rows = [
   createData('Frozen yoghurt', 159, 6.0, 24, 4.0, 3.99),
   createData('Ice cream sandwich', 237, 9.0, 37, 4.3, 4.99),
@@ -115,30 +113,30 @@ const rows = [
 
 export default function Paystuff() {
   return (
-      <Grid container>
-          <Grid item md={2} ></Grid>
-          <Grid item md={8} xs={12}>
-    <TableContainer component={Paper}>
-      <Table aria-label="collapsible table">
-        <TableHead>
-          <TableRow>
-            <TableCell />
-            <TableCell>Dessert (100g serving)</TableCell>
-            <TableCell align="right">Calories</TableCell>
-            <TableCell align="right">Fat&nbsp;(g)</TableCell>
-            <TableCell align="right">Carbs&nbsp;(g)</TableCell>
-            <TableCell align="right">Protein&nbsp;(g)</TableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {rows.map((row) => (
-            <Row key={row.name} row={row} />
-          ))}
-        </TableBody>
-      </Table>
-    </TableContainer>
-    </Grid>
-    <Grid item md={2} ></Grid>
+    <Grid container style={{ marginTop: '50px' }}>
+      <Grid item md={2} ></Grid>
+      <Grid item md={8} xs={12}>
+        <TableContainer component={Paper}>
+          <Table aria-label="collapsible table">
+            <TableHead>
+              <TableRow>
+                <TableCell />
+                <TableCell>Dessert (100g serving)</TableCell>
+                <TableCell align="right">Calories</TableCell>
+                <TableCell align="right">Fat&nbsp;(g)</TableCell>
+                <TableCell align="right">Carbs&nbsp;(g)</TableCell>
+                <TableCell align="right">Protein&nbsp;(g)</TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              {rows.map((row) => (
+                <Row key={row.name} row={row} />
+              ))}
+            </TableBody>
+          </Table>
+        </TableContainer>
+      </Grid>
+      <Grid item md={2} ></Grid>
     </Grid>
   );
 }

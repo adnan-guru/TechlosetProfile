@@ -12,19 +12,13 @@ import LanguageIcon from '@material-ui/icons/Language';
 import SearchIcon from '@material-ui/icons/Search';
 import img from '../../assets/img.jpg';
 
-
-
 const useStyles = makeStyles({
     list: {
         width: 200,
         height: 600,
         backgroundColor: 'rgb(63 81 181)',
         padding: '20px',
-        opacity:'0.9',
-        
-    },
-    fullList: {
-        // width: 250,
+        opacity:'0.9',   
     },
 });
 
@@ -70,13 +64,10 @@ export default function Drawer() {
                 <ListItem button key={"languageicon"}>
                 <LanguageIcon  style={style.icon2} />
                 </ListItem>
-           
-               
             </List>
             <Divider />
         </div>
     );
-
     return (
         <div>
             <ReorderSharpIcon style={style.icon} onClick={toggleDrawer("left", true)} />
