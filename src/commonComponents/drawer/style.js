@@ -14,7 +14,6 @@ export const style = {
     },
     img: {
         maxWidth: '100%',
-        height: 'auto',
         width: '40px',
         height: '40px',
         borderRadius: '50%',

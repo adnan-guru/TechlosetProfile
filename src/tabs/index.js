@@ -4,10 +4,10 @@ import Footer from '../commonComponents/footer'
 import Login from '../commonComponents/login'
 function Tabs(){
     return(
-        <div className="tabs">
+        <div >
         <Navbar />
-          {/* <Tab />   */}
-         <Login /> 
+           {/* <Tab /> */}
+           <Login />   
         <Footer />
         </div>
     )

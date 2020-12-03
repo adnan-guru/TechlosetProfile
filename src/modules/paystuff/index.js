@@ -1,4 +1,5 @@
 import React from 'react';
+import {style} from './style.js';
 import { makeStyles } from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
 import Collapse from '@material-ui/core/Collapse';
@@ -113,7 +114,7 @@ const rows = [
 
 export default function Paystuff() {
   return (
-    <Grid container style={{ marginTop: '50px' }}>
+    <Grid container  style={style.main}>
       <Grid item md={2} ></Grid>
       <Grid item md={8} xs={12}>
         <TableContainer component={Paper}>

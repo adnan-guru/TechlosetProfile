@@ -22,7 +22,7 @@ const useStyles = makeStyles({
     },
 });
 
-const type = 'top' | 'left' | 'bottom' | 'right';
+//const type = 'top' | 'left' | 'bottom' | 'right';
 
 export default function Drawer() {
     const classes = useStyles();

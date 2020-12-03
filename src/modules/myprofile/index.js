@@ -14,11 +14,12 @@ export default function Myprofile() {
         <Container style={style.main}>
             <Grid container>
                 <Grid item md={2}>
-                    <img style={style.img} src={img} />
+                    <img style={style.img} src={img} alt="profile"/>
                 </Grid>
                 <Grid item xs={12} md={6}>
                     <Typography style={style.heading1} variant="h4">
-                        Muhammad Adnan  <Rating name="read-only" value={4} readOnly />
+                        Muhammad Adnan
+                        <Rating style={style.star} name="read-only" value={4} readOnly />
                     </Typography>
                     <Grid container>
                         <Grid style={style.headingtop} item md={5} xs={5}>
@@ -36,10 +37,7 @@ export default function Myprofile() {
                     </Grid>
                 </Grid>
                 <Grid item md={4} xs={12}>
-                    <Calendar
-                        onChange={onChange}
-                        value={value}
-                    />
+                    <Calendar onChange={onChange} value={value} />
                 </Grid>
             </Grid>
         </Container>

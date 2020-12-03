@@ -8,19 +8,24 @@ export const style = {
         right: '0px',
         bottom: '0px',
     },
+    icon:{
+        color: '#fff',
+    },
     icons: {
-        marginLeft: '30px',
+       marginRight: '30px',
+       justifyContent: 'left',
+       flexDirection: 'row',
+       alignItems: 'center',
         textDecoration: 'none',
         color: '#fff',
-
     },
     icontop: {
-        paddingTop: '10px'
+        paddingTop: '8px',
+        paddingLeft:'66px',  
     },
     text: {
-        fontSize: '12px',
+        fontSize: '11px',
         color: '#fff',
-        marginLeft: '60px',
         textAlign: 'center'
     },
     texttop: {

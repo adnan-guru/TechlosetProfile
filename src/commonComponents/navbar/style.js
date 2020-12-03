@@ -11,15 +11,20 @@ export const style = {
         maxWidth: '12%',
     },
     icon: {
-        paddingRight: '20px',
+        paddingRight: '15px',
+        width: '35px',
+        height: '35px',
     },
     img: {
         maxWidth: '100%',
         height: 'auto',
-        width: '40px',
-        height: '40px',
+        width: '30px',
+        height: '30px',
         borderRadius: '50%',
-
+    },
+    text: {
+        paddingRight: '15px',
+        fontSize:'15px'
     }
 
 

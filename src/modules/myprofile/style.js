@@ -1,6 +1,7 @@
 export const style = {
     main: {
         paddingTop: '50px',
+        paddingBottom:'70px',
     },
     heading: {
         color: '#747a87'
@@ -10,11 +11,13 @@ export const style = {
     },
     img: {
         maxWidth: '100%',
-        height: 'auto',
         width: '100px',
         height: '100px',
         borderRadius: '50%',
 
+    },
+    star:{
+        marginLeft:'15px',
     }
 
 

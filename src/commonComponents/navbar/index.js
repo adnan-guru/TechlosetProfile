@@ -20,7 +20,7 @@ export default function Navbar() {
             <Typography style={style.title}></Typography>
             < SearchIcon style={style.icon} />
             <LanguageIcon style={style.icon} />
-            <Typography style={style.icon} variant="subtitle1">
+            <Typography style={style.text} variant="subtitle1">
               Muhammad
          </Typography>
             <img style={style.img} src={img} alt="profile image" />

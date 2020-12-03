@@ -12,7 +12,7 @@ import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 
-export default function SignIn() {
+export default function Login() {
   return (
     <Container component="main" maxWidth="xs" style={style.main}>
       <CssBaseline />
