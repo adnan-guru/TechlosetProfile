@@ -6,8 +6,8 @@ function Tabs(){
     return(
         <div >
         <Navbar />
-           {/* <Tab /> */}
-           <Login />   
+         <Tab /> 
+           {/* <Login />    */}
         <Footer />
         </div>
     )

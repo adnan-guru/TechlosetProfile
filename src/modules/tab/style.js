@@ -1,4 +1,4 @@
-
+import {colors} from '../../constant/colors'
 export const style = {
   text: {
     padding: '15px',
@@ -19,7 +19,8 @@ export const style = {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-  }
+  },
+
 
 
 

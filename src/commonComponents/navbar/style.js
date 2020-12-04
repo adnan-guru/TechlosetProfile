@@ -12,8 +12,8 @@ export const style = {
     },
     icon: {
         paddingRight: '15px',
-        width: '35px',
-        height: '35px',
+        width: '20px',
+        height: '20px',
     },
     img: {
         maxWidth: '100%',
@@ -24,7 +24,7 @@ export const style = {
     },
     text: {
         paddingRight: '15px',
-        fontSize:'15px'
+        fontSize: '15px'
     }
 
 

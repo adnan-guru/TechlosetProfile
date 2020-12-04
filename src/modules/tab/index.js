@@ -8,6 +8,7 @@ import Grid from '@material-ui/core/Grid';
 import Myprofile from '../../modules/myprofile';
 import Paystuff from '../../modules/paystuff';
 import Leave from'../../modules/leave';
+import Social from '../../modules/social';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -42,6 +43,7 @@ export default function SimpleTabs() {
     <div >
       <div style={style.main}>
         <Tabs
+        indicatorColor="primary"
           value={value}
           onChange={handleChange}
           variant="scrollable"
@@ -65,17 +67,16 @@ export default function SimpleTabs() {
             <Paystuff />
           </TabPanel>
           <TabPanel value={value} index={2}>
-            {/* <Leave /> */}
-            tab2
+            <Leave />
           </TabPanel>
           <TabPanel value={value} index={3}>
-            tab3
+            Received code
           </TabPanel>
           <TabPanel value={value} index={4}>
-            tab4
+            photo
           </TabPanel>
           <TabPanel value={value} index={5}>
-            tab5
+            <Social />
           </TabPanel>
           <TabPanel value={value} index={6}>
             tab6
