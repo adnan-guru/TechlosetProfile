@@ -9,6 +9,7 @@ import Myprofile from '../../modules/myprofile';
 import Paystuff from '../../modules/paystuff';
 import Leave from'../../modules/leave';
 import Social from '../../modules/social';
+import Agreement from '../../modules/agreement';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -70,16 +71,16 @@ export default function SimpleTabs() {
             <Leave />
           </TabPanel>
           <TabPanel value={value} index={3}>
-            Received code
+            cards
           </TabPanel>
           <TabPanel value={value} index={4}>
-            photo
+            <Agreement />
           </TabPanel>
           <TabPanel value={value} index={5}>
             <Social />
           </TabPanel>
           <TabPanel value={value} index={6}>
-            tab6
+            code Receive
           </TabPanel>
         </Grid>
       </Grid>

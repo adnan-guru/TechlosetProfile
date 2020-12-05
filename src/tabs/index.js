@@ -7,7 +7,7 @@ function Tabs(){
         <div >
         <Navbar />
          <Tab /> 
-           {/* <Login />    */}
+            {/* <Login />    */}
         <Footer />
         </div>
     )
