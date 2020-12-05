@@ -8,20 +8,20 @@ export const style = {
         right: '0px',
         bottom: '0px',
     },
-    icon:{
+    icon: {
         color: '#fff',
     },
     icons: {
-       marginRight: '30px',
-       justifyContent: 'left',
-       flexDirection: 'row',
-       alignItems: 'center',
+        marginRight: '30px',
+        justifyContent: 'left',
+        flexDirection: 'row',
+        alignItems: 'center',
         textDecoration: 'none',
         color: '#fff',
     },
     icontop: {
         paddingTop: '8px',
-        paddingLeft:'66px',  
+        paddingLeft: '66px',
     },
     text: {
         fontSize: '11px',

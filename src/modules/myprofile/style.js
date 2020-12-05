@@ -1,10 +1,10 @@
 export const style = {
     main: {
         paddingTop: '50px',
-        paddingBottom:'70px',
+        paddingBottom: '70px',
     },
     font: {
-        fontFamily: 'Roboto' ,
+        fontFamily: 'Roboto',
     },
     heading2: {
         color: '#747a87',
@@ -20,8 +20,8 @@ export const style = {
         borderRadius: '50%',
 
     },
-    star:{
-        marginLeft:'15px',
+    star: {
+        marginLeft: '15px',
     }
 
 

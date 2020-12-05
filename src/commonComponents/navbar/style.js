@@ -17,7 +17,6 @@ export const style = {
     },
     img: {
         maxWidth: '100%',
-        height: 'auto',
         width: '30px',
         height: '30px',
         borderRadius: '50%',

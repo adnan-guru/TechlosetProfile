@@ -18,11 +18,9 @@ const useStyles = makeStyles({
         height: 600,
         backgroundColor: 'rgb(63 81 181)',
         padding: '20px',
-        opacity:'0.9',   
+        opacity: '0.9',
     },
 });
-
-//const type = 'top' | 'left' | 'bottom' | 'right';
 
 export default function Drawer() {
     const classes = useStyles();
@@ -51,18 +49,18 @@ export default function Drawer() {
         >
             <List>
                 <ListItem button key={"img"}>
-                <img style={style.img} src={img} alt="profile image" />
+                    <img style={style.img} src={img} alt="profile image" />
                 </ListItem>
                 <ListItem button key={"text"}>
-                <Typography  style={style.icon2}  variant="subtitle1">
-                 Muhammad
+                    <Typography style={style.icon2} variant="subtitle1">
+                        Muhammad
                </Typography>
                 </ListItem>
                 <ListItem button key={"searchicon"}>
-                < SearchIcon style={style.icon2} />
+                    < SearchIcon style={style.icon2} />
                 </ListItem>
                 <ListItem button key={"languageicon"}>
-                <LanguageIcon  style={style.icon2} />
+                    <LanguageIcon style={style.icon2} />
                 </ListItem>
             </List>
             <Divider />

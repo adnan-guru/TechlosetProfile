@@ -16,12 +16,11 @@ function Footer() {
                     </Typography>
             </Grid>
             <Grid item md={5}  > </Grid>
-            <Grid item md={3}  style={style.icontop}>
+            <Grid item md={3} style={style.icontop}>
                 <a style={style.icons} href="#"><FacebookIcon fontSize="small" /></a>
                 <a style={style.icons} href="#">< LinkedInIcon fontSize="small" /></a>
                 <a style={style.icons} href="#"><TwitterIcon fontSize="small" /></a>
                 <a style={style.icon} href="#"><YouTubeIcon fontSize="small" /></a>
-
             </Grid>
         </Grid>
     )

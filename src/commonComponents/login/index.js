@@ -1,5 +1,5 @@
 import React from 'react';
-import {style} from './style.js';
+import { style } from './style.js';
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
