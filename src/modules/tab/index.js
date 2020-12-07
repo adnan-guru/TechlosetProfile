@@ -10,7 +10,7 @@ import Paystuff from '../../modules/paystuff';
 import Leave from'../../modules/leave';
 import Social from '../../modules/social';
 import Agreement from '../../modules/agreement';
-
+import Document from '../../modules/document';
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
   return (
@@ -71,7 +71,7 @@ export default function SimpleTabs() {
             <Leave />
           </TabPanel>
           <TabPanel value={value} index={3}>
-            cards
+            <Document />
           </TabPanel>
           <TabPanel value={value} index={4}>
             <Agreement />

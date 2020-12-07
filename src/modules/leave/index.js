@@ -17,16 +17,16 @@ function Leave() {
                 <Grid item xs={12} md={5}>
                     <Grid container>
                         <Grid style={style.headingtop} item md={5} xs={5}>
-                            <Typography variant="h6">Art Director</Typography>
-                            <Typography style={style.heading} variant="subtitle1">Job Title</Typography>
-                            <Typography variant="h6">10 Years</Typography>
-                            <Typography style={style.heading} variant="subtitle1">Experiance</Typography>
+                            <Typography style={style.heading1} variant="h6">Art Director</Typography>
+                            <Typography style={style.heading2} variant="subtitle1">Job Title</Typography>
+                            <Typography style={style.heading1} variant="h6">10 Years</Typography>
+                            <Typography style={style.heading2} variant="subtitle1">Experiance</Typography>
                         </Grid>
                         <Grid style={style.headingtop} item md={7} xs={7}>
-                            <Typography variant="h6">Full Time</Typography>
-                            <Typography style={style.heading} variant="subtitle1">Employement Type</Typography>
-                            <Typography variant="h6">Illustario</Typography>
-                            <Typography style={style.heading} variant="subtitle1">Skill {'&'} Experiance</Typography>
+                            <Typography style={style.heading1} variant="h6">Full Time</Typography>
+                            <Typography style={style.heading2} variant="subtitle1">Employement Type</Typography>
+                            <Typography style={style.heading1} variant="h6">Illustario</Typography>
+                            <Typography style={style.heading2} variant="subtitle1">Skill {'&'} Experiance</Typography>
                         </Grid>
                     </Grid>
                 </Grid>

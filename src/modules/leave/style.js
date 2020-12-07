@@ -4,8 +4,12 @@ export const style = {
         paddingTop: '50px',
         paddingBottom: '70px',
     },
-    heading: {
-        color: '#747a87'
+    heading1: {
+     fontFamily:'Roboto',
+    },
+    heading2: {
+        color: '#747a87',
+        fontFamily:'Roboto',
     },
     headingtop: {
         paddingTop: '30px'
