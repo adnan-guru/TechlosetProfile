@@ -6,31 +6,27 @@ import TextField from '@material-ui/core/TextField';
 import Grid from '@material-ui/core/Grid';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
-import Container from '@material-ui/core/Container';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import WhatsAppIcon from '@material-ui/icons/WhatsApp';
-import IconButton from "@material-ui/core/IconButton";
 import InputAdornment from "@material-ui/core/InputAdornment";
 
 
 export default function Social() {
+  
   return (
-    <Container>
-      <Grid container>
+      <Grid container style={style.main}>
         <Grid item md={4}></Grid>
-        <Grid item md={4} xs={12} style={style.main}>
-          <TextField
+        <Grid item md={4} xs={12} >
+          <TextField style={style.icontop}
             label="Enter Facebook Address"
             variant="outlined"
             fullWidth
             InputProps={{
               endAdornment: (
                 <InputAdornment>
-                  <IconButton>
                     <Avatar style={style.icon}>
-                      <FacebookIcon/>
+                      <FacebookIcon style={style.padding} />
                     </Avatar>
-                  </IconButton>
                 </InputAdornment>
               )
             }}
@@ -42,12 +38,10 @@ export default function Social() {
             InputProps={{
               endAdornment: (
                 <InputAdornment>
-                  <IconButton>
                     <Avatar style={style.icon}>
                       <TwitterIcon />
                     </Avatar>
-                  </IconButton>
-                </InputAdornment>
+               </InputAdornment>
               )
             }}
           />
@@ -58,44 +52,32 @@ export default function Social() {
             InputProps={{
               endAdornment: (
                 <InputAdornment>
-                  <IconButton>
                     <Avatar style={style.icon}>
                     <InstagramIcon />
                     </Avatar>
-                  </IconButton>
                 </InputAdornment>
               )
             }}
           />
               <TextField style={style.icontop}
-            label="Enter Your Whattsapp Number"
+            label="Enter Whattsapp Number"
             variant="outlined"
+            multiline
+            rowsMax={4}
             fullWidth
             InputProps={{
               endAdornment: (
                 <InputAdornment>
-                  <IconButton>
                     <Avatar style={style.icon}>
                     < WhatsAppIcon />
                     </Avatar>
-                  </IconButton>
                 </InputAdornment>
               )
             }}
           />
-          {/* <Avatar style={style.icon}>
-            < InstagramIcon />
-          </Avatar>
-          <TextField
-            variant="outlined"
-            margin="normal"
-            required
-            fullWidth
-            label="Instagram Address"
-          /> */}
           <Button
             type="submit"
-            //fullWidth
+            fullWidth
             variant="contained"
             color="primary"
             style={style.submit}
@@ -105,7 +87,5 @@ export default function Social() {
         </Grid>
         <Grid item md={4}></Grid>
       </Grid>
-
-    </Container>
   );
 }

@@ -21,7 +21,7 @@ export const style = {
     },
     icontop: {
         paddingTop: '8px',
-        paddingLeft: '66px',
+        paddingLeft: '77px',
     },
     text: {
         fontSize: '11px',
